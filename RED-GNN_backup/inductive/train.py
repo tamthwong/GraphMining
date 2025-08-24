@@ -27,7 +27,7 @@ if __name__ == '__main__':
     else:
         dataset = dataset[-2]
 
-    save_dir = '/content/drive/MyDrive/RED-GNN/inductive/' # edit here
+    save_dir = '/content/drive/MyDrive/RED-GNN_backup/inductive/' # edit here
 
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
