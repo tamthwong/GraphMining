@@ -2,7 +2,7 @@
 
 
 
-This notebook (`RED\_GNN\_Visual.ipynb`) provides an end-to-end workflow for running knowledge graph inference experiments in **transductive** and **inductive** scenarios, with visualization of predictions and subgraphs.
+This notebook (`RED_GNN_Visual.ipynb`) provides an end-to-end workflow for running knowledge graph inference experiments in **transductive** and **inductive** scenarios, with visualization of predictions and subgraphs.
 
 
 
@@ -32,7 +32,7 @@ Follow the steps below in order:
 
 ### 3. Navigate to Model Folder
 
-- **Run Cells 3 \& 4**
+- **Run Cells 3 & 4**
 
 &nbsp; Modify the paths inside these cells depending on which scenario you want:
 
@@ -98,15 +98,15 @@ Follow the steps below in order:
 
 - **Run Cell 10**
 
-&nbsp; - Modify `head\_name` and `rel\_name` in the `(h, r, ?)` triplet.
+&nbsp; - Modify `head_name` and `rel_name` in the `(h, r, ?)` triplet.
 
 &nbsp; - Use:
 
-&nbsp;   - `predict\_tail()` → predict the tail entity
+&nbsp;   - `predict_tail()` → predict the tail entity
 
-&nbsp;   - `visualize\_subgraph()` → visualize the subgraph
+&nbsp;   - `visualize_subgraph()` → visualize the subgraph
 
-&nbsp; - You can also provide a full `(h, r, t)` triplet using `get\_info()` to inspect details.
+&nbsp; - You can also provide a full `(h, r, t)` triplet using `get_info()` to inspect details.
 
 &nbsp; - The `alpha` parameter controls the threshold for removing edges/paths during visualization.
 
@@ -120,7 +120,7 @@ Follow the steps below in order:
 
 - Ensure that your dataset and model weights are correctly placed in your Google Drive before starting.
 
-- Adjust folder paths in Cells 3 \& 4 carefully to match your setup.
+- Adjust folder paths in Cells 3 & 4 carefully to match your setup.
 
 - For visualization clarity, experiment with different `alpha` values.
 
