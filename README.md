@@ -10,7 +10,7 @@ This notebook (`RED_GNN_Visual.ipynb`) provides an end-to-end workflow for runni
 
 
 
-Follow the steps below in order:
+This tutorial is for running on Google Colab. Follow the steps below in order:
 
 
 
